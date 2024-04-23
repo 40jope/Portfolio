@@ -1,0 +1,31 @@
+#home {
+    background: var(--25color);
+    padding: 2.5rem 1rem 1rem 1rem;
+}
+
+.home-paragrafo {
+    margin: 0.25rem 0;
+}
+
+.home-titulo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container-sociais {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.link-sociais {
+    background: var(--15color);
+    padding: 2px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-sociais img {
+    display: flex;
+}

@@ -1,0 +1,49 @@
+#Projetos {
+    background: var(--40color2);
+    padding: 1.5rem;
+}
+
+.titulo-sessao {
+    font-size: 40px;
+    margin: 1rem;
+}
+
+.container-projetos {
+    display: flex;
+}
+
+.container-projetos a {
+    text-decoration: none;
+}
+
+.cardprojeto {
+    display: flex;
+    background: var(--30color);
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+.cardprojeto:hover .cardprojeto-infos{
+    display: block;
+}
+
+.cardprojeto img {
+    width: 180px;
+}
+
+.cardprojeto-infos {
+    display: none;
+    padding: 0.5rem 1rem;
+}
+
+.cardprojeto-infos-titulo {
+    font-size: 30px;
+    color: var(--40color);
+    margin: 0.5rem;
+}
+
+.cardprojeto-infos-texto {
+    font-size: 20px;
+    color: var(--40color);
+    margin-bottom: 0.5rem;
+}

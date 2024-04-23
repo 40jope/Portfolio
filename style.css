@@ -1,0 +1,32 @@
+@import url(./estilos/navbar.css);
+@import url(./estilos/home.css);
+@import url(./estilos/projetos.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --40color: #23272a;
+    --40color2: #2c2f33;
+    --30color: #99aab5;
+    --20color: #ffffff;
+    --10color: #7289da;
+
+    /*
+    --40color: #142850;
+    --30color: #27496D;
+    --20color: #0C7B93;
+    --10color: #00A8CC;
+ 
+    --40color: #003C43;
+    --30color: #135D66;
+    --20color: #77B0AA;
+    --10color: #E3FEF7; */
+}
+
+body {
+    background: var(--40color);
+    color: white;
+}
