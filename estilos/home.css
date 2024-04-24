@@ -1,6 +1,5 @@
 #home {
-    background: var(--25color);
-    padding: 2.5rem 1rem 1rem 1rem;
+    padding: 2.5rem 8%;
 }
 
 .home-paragrafo {
@@ -26,6 +25,11 @@
     justify-content: center;
 }
 
-.link-sociais img {
+.github-svg, .linkedin-svg {
     display: flex;
+    width: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+    
 }

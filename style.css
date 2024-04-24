@@ -5,28 +5,19 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
+    --primary-font: 'Gotham', sans-serif; 
     --40color: #23272a;
-    --40color2: #2c2f33;
-    --30color: #99aab5;
-    --20color: #ffffff;
+    --30color: #2c2f33;
+    --20color: #99aab5;
     --10color: #7289da;
-
-    /*
-    --40color: #142850;
-    --30color: #27496D;
-    --20color: #0C7B93;
-    --10color: #00A8CC;
- 
-    --40color: #003C43;
-    --30color: #135D66;
-    --20color: #77B0AA;
-    --10color: #E3FEF7; */
 }
 
 body {
     background: var(--40color);
+    font-family: var(--primary-font);
     color: white;
 }

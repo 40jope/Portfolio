@@ -1,11 +1,11 @@
 #Projetos {
-    background: var(--40color2);
+    background: var(--30color);
     padding: 1.5rem;
 }
 
 .titulo-sessao {
     font-size: 40px;
-    margin: 1rem;
+    margin-bottom: 2rem;
 }
 
 .container-projetos {
@@ -17,23 +17,17 @@
 }
 
 .cardprojeto {
-    display: flex;
-    background: var(--30color);
-    padding: 0.5rem;
+    background: var(--10color);
+    padding: 0.75rem;
     border-radius: 15px;
-}
-
-.cardprojeto:hover .cardprojeto-infos{
-    display: block;
+    text-align: center;
 }
 
 .cardprojeto img {
-    width: 180px;
+    width: 300px;
 }
 
 .cardprojeto-infos {
-    display: none;
-    padding: 0.5rem 1rem;
 }
 
 .cardprojeto-infos-titulo {
@@ -46,4 +40,25 @@
     font-size: 20px;
     color: var(--40color);
     margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .cardprojeto {
+        display: flex;
+    }
+
+    .cardprojeto img {
+        width: 180px;
+    }
+
+    .cardprojeto:hover .cardprojeto-infos{
+        display: block;
+    }
+
+    .cardprojeto-infos {
+        display: none;
+        /* transition: all 2s ease-in 2s; */
+    }
+    
 }
