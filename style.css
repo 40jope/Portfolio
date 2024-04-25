@@ -1,6 +1,7 @@
 @import url(./estilos/navbar.css);
 @import url(./estilos/home.css);
 @import url(./estilos/projetos.css);
+@import url(./estilos/sobre-mim.css);
 
 * {
     margin: 0;
